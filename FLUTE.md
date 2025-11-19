@@ -100,6 +100,7 @@ Common attributes:
 - Affiliate ID
 - Portfolio size
 - Portfolio volume metrics
+- Developer settings
 
 ### 3.5 User
 A person who accesses the portal.
@@ -198,7 +199,7 @@ When generating or implementing a feature, the assistant should:
 
 1. Use this document to understand the **domain and business meaning** of entities.
 2. Use the specific feature's markdown file to understand **requirements and desired behaviors**.
-3. Use `TECH-DIRECTION.md` to understand **how to implement** those behaviors.
+3. Use `TECH.md` to understand **how to implement** those behaviors.
 4. Produce a clean, self-contained implementation aligned with:
    - Portal concepts
    - User roles
@@ -207,7 +208,7 @@ When generating or implementing a feature, the assistant should:
 
 Together, the three documents provide:
 - Business context (this file)
-- Technical direction (`TECH-DIRECTION.md`)
+- Technical direction (`TECH.md`)
 - Feature-level requirements (`/features/*.md`)
 
 This combination forms the complete **Product Requirements Prompt** for one-shot prototype generation.
